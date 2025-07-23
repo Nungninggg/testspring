@@ -15,3 +15,6 @@ Postgre 15
 springdoc 2.5.0
 
 Apache Maven
+
+Swagger Link :[ http://localhost:8080/apitest/swagger-ui.html![Uploading image.png…]()](http://localhost:8080/apitest/swagger-ui/index.html)
+
