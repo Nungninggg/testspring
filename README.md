@@ -1,13 +1,13 @@
-#Project
+# Project
 
 API SSO TEST
 
-##Description
+## Description
 
 Write a Service that receives the Insert data and responds as required. Use Swagger to test the data API. If successful, it returns the userId and tokenId. If the Insert fails, it returns responseCode E000001 to indicate failure
 
+## table sso_user_test
 ```
-##table sso_user_test
 (
     request_date          timestamp not null
         constraint pk_sso_user_test
@@ -28,8 +28,8 @@ Write a Service that receives the Insert data and responds as required. Use Swag
     tokenid               varchar(1000)
 );
 ```
+## POST API try it out
 ```
-##POST API try it out
 {
   "requestDate": "2025-07-23T04:41:44.823Z",
   "ssoType": "string",
@@ -48,9 +48,9 @@ Write a Service that receives the Insert data and responds as required. Use Swag
   "tokenId": "string"
 }
 ```
+## EXECUTE
+### Response
 ```
-##EXECUTE
-###Response
 {
   "responseCode": "I07000",
   "responseMessage": "ทำรายการเรียบร้อย",
@@ -61,16 +61,16 @@ Write a Service that receives the Insert data and responds as required. Use Swag
 }
 ```
 
-###instll
-:Spring boot version 3.3.9
+### instll
+Spring boot version 3.3.9
 
-:JAVA 21
+JAVA 21
 
-:Postgre 15
+Postgre 15
 
-:springdoc 2.5.0
+springdoc 2.5.0
 
-:Apache Maven
+Apache Maven
 
-###Swagger Link : http://localhost:8080/apitest/swagger-ui.html
+### Swagger Link : http://localhost:8080/apitest/swagger-ui.html
 
