@@ -6,7 +6,7 @@ API SSO TEST
 
 Write a Service that receives the Insert data and responds as required. Use Swagger to test the data API. If successful, it returns the userId and tokenId. If the Insert fails, it returns responseCode E000001 to indicate failure
 
-
+```
 ##table sso_user_test
 (
     request_date          timestamp not null
@@ -27,6 +27,8 @@ Write a Service that receives the Insert data and responds as required. Use Swag
     locationmachinenumber varchar(500),
     tokenid               varchar(1000)
 );
+```
+```
 ##POST API try it out
 {
   "requestDate": "2025-07-23T04:41:44.823Z",
@@ -45,6 +47,8 @@ Write a Service that receives the Insert data and responds as required. Use Swag
   "locationMachineNumber": "string",
   "tokenId": "string"
 }
+```
+```
 ##EXECUTE
 ###Response
 {
@@ -55,7 +59,7 @@ Write a Service that receives the Insert data and responds as required. Use Swag
     "tokenId": "string"
   }
 }
-
+```
 
 ###instll
 :Spring boot version 3.3.9
